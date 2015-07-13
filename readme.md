@@ -6,7 +6,7 @@
 
 > Allows for a default image, if no ***mouse-hover*** takes place
 
->Check out the [Demo]()
+>Check out the [demo](https://xerik.github.io/sprity-css-rollover)
 
 ## Requirements
 
@@ -136,6 +136,6 @@ This module generated a CSS file, similiar to this one:
 
 Images have been extracted from the public domain movie [Little Tich and his Big Boot Dance (1900)](http://publicdomainreview.org/collections/little-tich-and-his-big-boot-dance-1900/).
 
-## licenses
+## License
 
 MIT
