@@ -1,6 +1,12 @@
 
     .icon:hover {
 
+        -webkit-animation: play 13s steps(13) infinite;
+        -moz-animation: play 13s steps(13) infinite;
+        -ms-animation: play 13s steps(13) infinite;
+        -o-animation: play 13s steps(13) infinite;
+        animation: play 13s steps(13) infinite;
+
         -webkit-animation-play-state: running;
         -moz-animation-play-state: running;
         -ms-animation-play-state: running;
@@ -13,12 +19,6 @@
       background-image: url('sprite.jpg');
       width: 192px;
       height: 146px;
-
-      -webkit-animation: play 13s steps(13) infinite;
-      -moz-animation: play 13s steps(13) infinite;
-      -ms-animation: play 13s steps(13) infinite;
-      -o-animation: play 13s steps(13) infinite;
-      animation: play 13s steps(13) infinite;
 
         -webkit-animation-play-state: paused;
         -moz-animation-play-state: paused;

@@ -6,6 +6,12 @@
 
     .{{cssesc ../classname}}:hover {
 
+        -webkit-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
+        -moz-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
+        -ms-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
+        -o-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
+        animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
+
         -webkit-animation-play-state: running;
         -moz-animation-play-state: running;
         -ms-animation-play-state: running;
@@ -18,12 +24,6 @@
       background-image: url('{{escimage url}}');
       width: {{../layout.items.[0].width}}px;
       height: {{../layout.items.[0].height}}px;
-
-      -webkit-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
-      -moz-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
-      -ms-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
-      -o-animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
-      animation: play {{../layout.items.length}}s steps({{../layout.items.length}}) infinite;
 
         -webkit-animation-play-state: paused;
         -moz-animation-play-state: paused;
