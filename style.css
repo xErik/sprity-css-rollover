@@ -1,15 +1,26 @@
 .icon:hover {
-  -webkit-animation: play 5s steps(13) infinite;
-  -moz-animation: play 5s steps(13) infinite;
-  -ms-animation: play 5s steps(13) infinite;
-  -o-animation: play 5s steps(13) infinite;
-  animation: play 5s steps(13) infinite;
-  animation-play-state: running;
+
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+
 }
 .icon {
   background-image: url("sprite.jpg");
   width: 192px;
   height: 146px;
+  -webkit-animation: play 13s steps(13) infinite;
+  -moz-animation: play 13s steps(13) infinite;
+  -ms-animation: play 13s steps(13) infinite;
+  -o-animation: play 13s steps(13) infinite;
+  animation: play 13s steps(13) infinite;
+
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
   animation-play-state: paused;
 }
 @-webkit-keyframes play {
