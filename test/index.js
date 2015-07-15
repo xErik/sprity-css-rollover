@@ -238,6 +238,7 @@ describe('sprity-css-rollover', function() {
 	it('should return css as expected', function(done) {
 		cssProc.process(fixture, {}, Handlebars)
 			.then(function(s) {
+				require('fs').writeFileSync('out.txt',s);
 				var style = prettydiff.api({
 					source: s,
 					lang: 'css',

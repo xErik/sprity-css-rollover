@@ -47,7 +47,7 @@
     "chai": "^2.2.0",
     "cssesc": "^0.1.0",
     "handlebars": "^3.0.1",
-    "mocha": "^2.2.4",
+    "mocha": "^2.2.5",
     "prettydiff": "^1.11.11"
   }
 }
