@@ -1,104 +1,101 @@
 .icon:hover {
-
+    -webkit-animation: play 13s steps(13) infinite;
+    -moz-animation: play 13s steps(13) infinite;
+    -ms-animation: play 13s steps(13) infinite;
+    -o-animation: play 13s steps(13) infinite;
+    animation: play 13s steps(13) infinite;
     -webkit-animation-play-state: running;
     -moz-animation-play-state: running;
     -ms-animation-play-state: running;
     -o-animation-play-state: running;
     animation-play-state: running;
-
 }
 .icon {
-  background-image: url("sprite.jpg");
-  width: 192px;
-  height: 146px;
-  -webkit-animation: play 13s steps(13) infinite;
-  -moz-animation: play 13s steps(13) infinite;
-  -ms-animation: play 13s steps(13) infinite;
-  -o-animation: play 13s steps(13) infinite;
-  animation: play 13s steps(13) infinite;
-
-  -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  -ms-animation-play-state: paused;
-  -o-animation-play-state: paused;
-  animation-play-state: paused;
+    background-image: url("sprite.jpg");
+    width: 192px;
+    height: 146px;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
 }
 @-webkit-keyframes play {
-  from {
-    background-position: -0px -0px;
-  }
-  to {
-    background-position: -0px -1898px;
-  }
+    from {
+        background-position: -0px -0px;
+    }
+    to {
+        background-position: -0px -1898px;
+    }
 }
 @-moz-keyframes play {
-  from {
-    background-position: -0px -0px;
-  }
-  to {
-    background-position: -0px -1898px;
-  }
+    from {
+        background-position: -0px -0px;
+    }
+    to {
+        background-position: -0px -1898px;
+    }
 }
 @-ms-keyframes play {
-  from {
-    background-position: -0px -0px;
-  }
-  to {
-    background-position: -0px -1898px;
-  }
+    from {
+        background-position: -0px -0px;
+    }
+    to {
+        background-position: -0px -1898px;
+    }
 }
 @-o-keyframes play {
-  from {
-    background-position: -0px -0px;
-  }
-  to {
-    background-position: -0px -1898px;
-  }
+    from {
+        background-position: -0px -0px;
+    }
+    to {
+        background-position: -0px -1898px;
+    }
 }
 @keyframes play {
-  from {
-    background-position: -0px -0px;
-  }
-  to {
-    background-position: -0px -1898px;
-  }
+    from {
+        background-position: -0px -0px;
+    }
+    to {
+        background-position: -0px -1898px;
+    }
 }
 .icon-sprite007 {
-  background-position: -0px -0px;
+    background-position: -0px -0px;
 }
 .icon-sprite001 {
-  background-position: -0px -146px;
+    background-position: -0px -146px;
 }
 .icon-sprite003 {
-  background-position: -0px -292px;
+    background-position: -0px -292px;
 }
 .icon-sprite004 {
-  background-position: -0px -438px;
+    background-position: -0px -438px;
 }
 .icon-sprite005 {
-  background-position: -0px -584px;
+    background-position: -0px -584px;
 }
 .icon-sprite006 {
-  background-position: -0px -730px;
+    background-position: -0px -730px;
 }
 .icon-sprite002 {
-  background-position: -0px -876px;
+    background-position: -0px -876px;
 }
 .icon-sprite008 {
-  background-position: -0px -1022px;
+    background-position: -0px -1022px;
 }
 .icon-sprite009 {
-  background-position: -0px -1168px;
+    background-position: -0px -1168px;
 }
 .icon-sprite010 {
-  background-position: -0px -1314px;
+    background-position: -0px -1314px;
 }
 .icon-sprite011 {
-  background-position: -0px -1460px;
+    background-position: -0px -1460px;
 }
 .icon-sprite012 {
-  background-position: -0px -1606px;
+    background-position: -0px -1606px;
 }
 .icon-sprite013 {
-  background-position: -0px -1752px;
+    background-position: -0px -1752px;
 }
